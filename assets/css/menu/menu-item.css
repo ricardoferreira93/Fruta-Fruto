@@ -1,0 +1,7 @@
+.menu__item {
+  list-style: none;
+}
+
+.menu__item:last-child .menu__link { /* last child, pega ultimo caracter, esta removendo espaco right*/
+  margin-right: 0;
+}
